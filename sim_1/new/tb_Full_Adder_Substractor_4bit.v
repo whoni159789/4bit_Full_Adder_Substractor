@@ -5,11 +5,9 @@ module tb_Full_Adder_Substractor_4bit();
     reg [3:0] i_A;
     reg [3:0] i_B;
     reg i_Mode;
-    reg [3:0] i_Mode_B;
     wire [3:0] o_Sum;
     wire o_Cout;
     
-    // dut -> design under test
     Full_Adder_Substractor_4bit dut(
         .i_A(i_A),
         .i_B(i_B),
